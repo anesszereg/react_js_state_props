@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.order_container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    text-align: start;
+}
+.category {
+    color:  hsl(26, 100%, 55%);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.title{
+    color: #000;
+    font-weight: 700;
+    width: 70%;
+    margin-bottom: -20px;
+}
+
+.description{
+    width: 60%;
+    margin-bottom: 10px;
+}
+.price_promotion{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #000;
+}
+.promotion{
+    background-color:  hsl(25, 100%, 94%);
+    color:  hsl(26, 100%, 55%);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.old_price{
+    text-decoration-line: line-through;
+}
+
+.buttons_container{
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.btn1{
+
+    justify-content: space-between;
+    
+    padding: 0 30px;
+    background-color: hsl(223, 64%, 98%);
+}
+.btn2{
+    justify-content: center;
+    gap: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+}
+button{
+    font-size: 20px;
+border-radius: 18px;
+width: 40%;
+height:60px;
+border: none;
+align-items: center;
+display: flex;
+cursor: pointer;
+}

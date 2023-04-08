@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    /* width: 100%; */
+    position: relative;
+    margin-bottom: 50px;
+}
+.container::after{
+    position: absolute;
+    bottom: 0;
+    content: '';
+    background-color: #aaaa;
+    height: 1px;
+    width: 90%;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover{
+    color: black;
+    transition: all ease-in-out 300ms;
+   scale: 1.1;
+}
+
+.profile > img {
+    height: 10vh;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
